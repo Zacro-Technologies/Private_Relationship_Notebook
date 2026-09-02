@@ -1,0 +1,11 @@
+"Review before saving" = "保存前に確認";
+"No notebook records are created here" = "ここではノートブックの記録は作成されません";
+"Privacy" = "プライバシー";
+"Queued in protected local storage" = "保護されたローカルストレージで待機します";
+"Couldn’t queue this share" = "共有項目を待機させられませんでした";
+"OK" = "OK";
+"The protected Keepsake Share inbox is unavailable in this build." = "このビルドでは、保護されたKeepsake共有受信箱を利用できません。";
+"Share no more than 20 items at once." = "一度に共有する項目は20件以下にしてください。";
+"This share is larger than the 100 MB review limit." = "この共有項目は確認上限の100 MBを超えています。";
+"The source app did not provide a supported text, image, PDF, URL, or document representation." = "共有元アプリから、対応するテキスト、画像、PDF、URL、または書類のデータが提供されませんでした。";
+"The source app’s shared item could not be read." = "共有元アプリの項目を読み取れませんでした。";

@@ -1,0 +1,11 @@
+"Review before saving" = "Review before saving";
+"No notebook records are created here" = "No notebook records are created here";
+"Privacy" = "Privacy";
+"Queued in protected local storage" = "Queued in protected local storage";
+"Couldn’t queue this share" = "Couldn’t queue this share";
+"OK" = "OK";
+"The protected Keepsake Share inbox is unavailable in this build." = "The protected Keepsake Share inbox is unavailable in this build.";
+"Share no more than 20 items at once." = "Share no more than 20 items at once.";
+"This share is larger than the 100 MB review limit." = "This share is larger than the 100 MB review limit.";
+"The source app did not provide a supported text, image, PDF, URL, or document representation." = "The source app did not provide a supported text, image, PDF, URL, or document representation.";
+"The source app’s shared item could not be read." = "The source app’s shared item could not be read.";

@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* Domain.swift */; };
+		A10000000000000000000002 /* SearchNormalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* SearchNormalizer.swift */; };
+		A10000000000000000000003 /* NudgeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* NudgeEngine.swift */; };
+		A10000000000000000000004 /* ArchiveCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* ArchiveCodec.swift */; };
+		A10000000000000000000005 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* PersistenceController.swift */; };
+		A10000000000000000000006 /* NotebookStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* NotebookStore.swift */; };
+		A10000000000000000000007 /* RelationshipNotebookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* RelationshipNotebookApp.swift */; };
+		A10000000000000000000008 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* Theme.swift */; };
+		A10000000000000000000009 /* RootAndOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* RootAndOnboarding.swift */; };
+		A1000000000000000000000A /* TodayAndPeopleViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* TodayAndPeopleViews.swift */; };
+		A1000000000000000000000B /* CaptureAndSettingsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000B /* CaptureAndSettingsViews.swift */; };
+		A20000000000000000000001 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000001 /* AppConfiguration.swift */; };
+		A20000000000000000000003 /* ArchiveImportPlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000003 /* ArchiveImportPlanner.swift */; };
+		A20000000000000000000004 /* CanonicalArchivePayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000004 /* CanonicalArchivePayload.swift */; };
+		A20000000000000000000005 /* CanonicalAssertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000005 /* CanonicalAssertions.swift */; };
+		A20000000000000000000006 /* CanonicalPlanningAndFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000006 /* CanonicalPlanningAndFilters.swift */; };
+		A20000000000000000000007 /* CanonicalPrimitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000007 /* CanonicalPrimitives.swift */; };
+		A20000000000000000000008 /* CanonicalRelationships.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000008 /* CanonicalRelationships.swift */; };
+		A20000000000000000000009 /* CanonicalVaultStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000009 /* CanonicalVaultStore.swift */; };
+		A2000000000000000000000A /* CommunicationHandoff.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000A /* CommunicationHandoff.swift */; };
+		A2000000000000000000000B /* DeterministicTextImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000B /* DeterministicTextImport.swift */; };
+		A2000000000000000000000C /* DocumentTextExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000C /* DocumentTextExtractor.swift */; };
+		A2000000000000000000000E /* LocalSearchEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000E /* LocalSearchEvaluation.swift */; };
+		A2000000000000000000000F /* LocalSearchIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000000F /* LocalSearchIndex.swift */; };
+		A20000000000000000000010 /* LocalSearchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000010 /* LocalSearchModels.swift */; };
+		A20000000000000000000011 /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000011 /* NotificationScheduler.swift */; };
+		A20000000000000000000012 /* PersonMerge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000012 /* PersonMerge.swift */; };
+		A20000000000000000000013 /* ProfileCardSnapshots.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000013 /* ProfileCardSnapshots.swift */; };
+		A20000000000000000000014 /* RecordRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000014 /* RecordRepository.swift */; };
+		A20000000000000000000015 /* SensitiveFieldPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000015 /* SensitiveFieldPolicy.swift */; };
+		A20000000000000000000016 /* SyncStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000016 /* SyncStatus.swift */; };
+		A20000000000000000000017 /* GuidedImportReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000017 /* GuidedImportReviewView.swift */; };
+		A20000000000000000000018 /* PeopleDiscoveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000018 /* PeopleDiscoveryView.swift */; };
+		A20000000000000000000019 /* PeopleManagementViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000019 /* PeopleManagementViews.swift */; };
+		A2000000000000000000001A /* PlanningAndCustomFieldsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000001A /* PlanningAndCustomFieldsViews.swift */; };
+		A2000000000000000000001B /* ProfileSnapshotStudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000001B /* ProfileSnapshotStudioView.swift */; };
+		A2000000000000000000001C /* SecurityViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000001C /* SecurityViews.swift */; };
+		A2000000000000000000001D /* StructuredRelationshipViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000001D /* StructuredRelationshipViews.swift */; };
+		A2000000000000000000001E /* PortraitMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000001E /* PortraitMedia.swift */; };
+		A2000000000000000000001F /* PortraitViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000001F /* PortraitViews.swift */; };
+		A20000000000000000000020 /* ArchiveExportScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000020 /* ArchiveExportScope.swift */; };
+		A20000000000000000000021 /* MediaArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000021 /* MediaArchive.swift */; };
+		A20000000000000000000022 /* CloudSyncNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000022 /* CloudSyncNotifications.swift */; };
+		A20000000000000000000023 /* CloudAccountBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000023 /* CloudAccountBinding.swift */; };
+		A20000000000000000000024 /* CloudVaultMigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000024 /* CloudVaultMigration.swift */; };
+		A20000000000000000000025 /* MediaPayloadRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000025 /* MediaPayloadRepository.swift */; };
+		A20000000000000000000026 /* PersistentHistoryCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000026 /* PersistentHistoryCoordinator.swift */; };
+		A20000000000000000000027 /* AppSessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000027 /* AppSessionController.swift */; };
+		A20000000000000000000028 /* ArchiveMigrationDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000028 /* ArchiveMigrationDestination.swift */; };
+		A20000000000000000000029 /* CloudVaultMigrationGenerationGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20000000000000000000029 /* CloudVaultMigrationGenerationGate.swift */; };
+		A2000000000000000000002A /* RecoverableDeletionCheckpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000002A /* RecoverableDeletionCheckpoint.swift */; };
+		A2000000000000000000002B /* RecoverableDeletionReferenceClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000002B /* RecoverableDeletionReferenceClosure.swift */; };
+		A2000000000000000000002C /* RelationshipWorkflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000000000000000000002C /* RelationshipWorkflow.swift */; };
+		A30000000000000000000001 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B30000000000000000000001 /* PrivacyInfo.xcprivacy */; };
+		A30000000000000000000002 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D30000000000000000000001 /* Localizable.strings */; };
+		A30000000000000000000003 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D30000000000000000000003 /* InfoPlist.strings */; };
+		A30000000000000000000004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30000000000000000000008 /* Assets.xcassets */; };
+		A40000000000000000000001 /* Clibsodium in Frameworks */ = {isa = PBXBuildFile; productRef = G20000000000000000000001 /* Clibsodium */; };
+		A40000000000000000000002 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = G20000000000000000000002 /* ZIPFoundation */; };
+		A50000000000000000000001 /* PasswordEncryptedArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50000000000000000000001 /* PasswordEncryptedArchive.swift */; };
+		A60000000000000000000001 /* ThirdPartyNotices.txt in Resources */ = {isa = PBXBuildFile; fileRef = B60000000000000000000001 /* ThirdPartyNotices.txt */; };
+		A70000000000000000000001 /* PushNotificationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70000000000000000000001 /* PushNotificationCoordinator.swift */; };
+		A80000000000000000000001 /* RecommendationMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80000000000000000000001 /* RecommendationMemory.swift */; };
+		A90000000000000000000001 /* ShortcutModelBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90000000000000000000001 /* ShortcutModelBridge.swift */; };
+		A90000000000000000000002 /* ShortcutPCCBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90000000000000000000002 /* ShortcutPCCBridge.swift */; };
+		A90000000000000000000003 /* PlatformReliabilityViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90000000000000000000003 /* PlatformReliabilityViews.swift */; };
+		A9F000000000000000000001 /* ArchiveImportReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F000000000000000000001 /* ArchiveImportReview.swift */; };
+		A9F000000000000000000002 /* VaultStorageInventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F000000000000000000002 /* VaultStorageInventory.swift */; };
+		A9F000000000000000000003 /* StorageInventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F000000000000000000003 /* StorageInventoryView.swift */; };
+		A5E000000000000000000001 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E000000000000000000001 /* ShareViewController.swift */; };
+		A5E000000000000000000002 /* KeepsakeShare.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B5E000000000000000000004 /* KeepsakeShare.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A5E000000000000000000003 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5E000000000000000000003 /* Localizable.strings */; };
+		A5E000000000000000000004 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5E000000000000000000004 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5E000000000000000000005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E10000000000000000000002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5E000000000000000000001;
+			remoteInfo = KeepsakeShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C5E000000000000000000004 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A5E000000000000000000002 /* KeepsakeShare.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* Domain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* SearchNormalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchNormalizer.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* NudgeEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeEngine.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* ArchiveCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveCodec.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* NotebookStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookStore.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* RelationshipNotebookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipNotebookApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* RootAndOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootAndOnboarding.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A /* TodayAndPeopleViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayAndPeopleViews.swift; sourceTree = "<group>"; };
+		B1000000000000000000000B /* CaptureAndSettingsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureAndSettingsViews.swift; sourceTree = "<group>"; };
+		B1000000000000000000000C /* Keepsake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keepsake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20000000000000000000001 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		B20000000000000000000003 /* ArchiveImportPlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveImportPlanner.swift; sourceTree = "<group>"; };
+		B20000000000000000000004 /* CanonicalArchivePayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanonicalArchivePayload.swift; sourceTree = "<group>"; };
+		B20000000000000000000005 /* CanonicalAssertions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanonicalAssertions.swift; sourceTree = "<group>"; };
+		B20000000000000000000006 /* CanonicalPlanningAndFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanonicalPlanningAndFilters.swift; sourceTree = "<group>"; };
+		B20000000000000000000007 /* CanonicalPrimitives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanonicalPrimitives.swift; sourceTree = "<group>"; };
+		B20000000000000000000008 /* CanonicalRelationships.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanonicalRelationships.swift; sourceTree = "<group>"; };
+		B20000000000000000000009 /* CanonicalVaultStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanonicalVaultStore.swift; sourceTree = "<group>"; };
+		B2000000000000000000000A /* CommunicationHandoff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationHandoff.swift; sourceTree = "<group>"; };
+		B2000000000000000000000B /* DeterministicTextImport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeterministicTextImport.swift; sourceTree = "<group>"; };
+		B2000000000000000000000C /* DocumentTextExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentTextExtractor.swift; sourceTree = "<group>"; };
+		B2000000000000000000000E /* LocalSearchEvaluation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchEvaluation.swift; sourceTree = "<group>"; };
+		B2000000000000000000000F /* LocalSearchIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchIndex.swift; sourceTree = "<group>"; };
+		B20000000000000000000010 /* LocalSearchModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchModels.swift; sourceTree = "<group>"; };
+		B20000000000000000000011 /* NotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		B20000000000000000000012 /* PersonMerge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMerge.swift; sourceTree = "<group>"; };
+		B20000000000000000000013 /* ProfileCardSnapshots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCardSnapshots.swift; sourceTree = "<group>"; };
+		B20000000000000000000014 /* RecordRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordRepository.swift; sourceTree = "<group>"; };
+		B20000000000000000000015 /* SensitiveFieldPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensitiveFieldPolicy.swift; sourceTree = "<group>"; };
+		B20000000000000000000016 /* SyncStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncStatus.swift; sourceTree = "<group>"; };
+		B20000000000000000000017 /* GuidedImportReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedImportReviewView.swift; sourceTree = "<group>"; };
+		B20000000000000000000018 /* PeopleDiscoveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDiscoveryView.swift; sourceTree = "<group>"; };
+		B20000000000000000000019 /* PeopleManagementViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleManagementViews.swift; sourceTree = "<group>"; };
+		B2000000000000000000001A /* PlanningAndCustomFieldsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanningAndCustomFieldsViews.swift; sourceTree = "<group>"; };
+		B2000000000000000000001B /* ProfileSnapshotStudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSnapshotStudioView.swift; sourceTree = "<group>"; };
+		B2000000000000000000001C /* SecurityViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityViews.swift; sourceTree = "<group>"; };
+		B2000000000000000000001D /* StructuredRelationshipViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuredRelationshipViews.swift; sourceTree = "<group>"; };
+		B2000000000000000000001E /* PortraitMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitMedia.swift; sourceTree = "<group>"; };
+		B2000000000000000000001F /* PortraitViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitViews.swift; sourceTree = "<group>"; };
+		B20000000000000000000020 /* ArchiveExportScope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveExportScope.swift; sourceTree = "<group>"; };
+		B20000000000000000000021 /* MediaArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaArchive.swift; sourceTree = "<group>"; };
+		B20000000000000000000022 /* CloudSyncNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudSyncNotifications.swift; sourceTree = "<group>"; };
+		B20000000000000000000023 /* CloudAccountBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudAccountBinding.swift; sourceTree = "<group>"; };
+		B20000000000000000000024 /* CloudVaultMigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudVaultMigration.swift; sourceTree = "<group>"; };
+		B20000000000000000000025 /* MediaPayloadRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPayloadRepository.swift; sourceTree = "<group>"; };
+		B20000000000000000000026 /* PersistentHistoryCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentHistoryCoordinator.swift; sourceTree = "<group>"; };
+		B20000000000000000000027 /* AppSessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSessionController.swift; sourceTree = "<group>"; };
+		B20000000000000000000028 /* ArchiveMigrationDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveMigrationDestination.swift; sourceTree = "<group>"; };
+		B20000000000000000000029 /* CloudVaultMigrationGenerationGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudVaultMigrationGenerationGate.swift; sourceTree = "<group>"; };
+		B2000000000000000000002A /* RecoverableDeletionCheckpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverableDeletionCheckpoint.swift; sourceTree = "<group>"; };
+		B2000000000000000000002B /* RecoverableDeletionReferenceClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverableDeletionReferenceClosure.swift; sourceTree = "<group>"; };
+		B2000000000000000000002C /* RelationshipWorkflow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipWorkflow.swift; sourceTree = "<group>"; };
+		B30000000000000000000001 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B30000000000000000000002 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B30000000000000000000003 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B30000000000000000000004 /* Keepsake-macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Keepsake-macOS.entitlements"; sourceTree = "<group>"; };
+		B30000000000000000000005 /* CloudKit.entitlements.example */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CloudKit.entitlements.example; sourceTree = "<group>"; };
+		B30000000000000000000006 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B30000000000000000000007 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B30000000000000000000008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B30000000000000000000009 /* Keepsake-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Keepsake-iOS.entitlements"; sourceTree = "<group>"; };
+		B50000000000000000000001 /* PasswordEncryptedArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordEncryptedArchive.swift; sourceTree = "<group>"; };
+		B60000000000000000000001 /* ThirdPartyNotices.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ThirdPartyNotices.txt; sourceTree = "<group>"; };
+		B70000000000000000000001 /* PushNotificationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationCoordinator.swift; sourceTree = "<group>"; };
+		B80000000000000000000001 /* RecommendationMemory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationMemory.swift; sourceTree = "<group>"; };
+		B90000000000000000000001 /* ShortcutModelBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutModelBridge.swift; sourceTree = "<group>"; };
+		B90000000000000000000002 /* ShortcutPCCBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutPCCBridge.swift; sourceTree = "<group>"; };
+		B90000000000000000000003 /* PlatformReliabilityViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformReliabilityViews.swift; sourceTree = "<group>"; };
+		B9F000000000000000000001 /* ArchiveImportReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveImportReview.swift; sourceTree = "<group>"; };
+		B9F000000000000000000002 /* VaultStorageInventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultStorageInventory.swift; sourceTree = "<group>"; };
+		B9F000000000000000000003 /* StorageInventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageInventoryView.swift; sourceTree = "<group>"; };
+		B5E000000000000000000001 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		B5E000000000000000000002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5E000000000000000000003 /* KeepsakeShare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeepsakeShare.entitlements; sourceTree = "<group>"; };
+		B5E000000000000000000004 /* KeepsakeShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KeepsakeShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E000000000000000000005 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B5E000000000000000000006 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B5E000000000000000000007 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5E000000000000000000008 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40000000000000000000001 /* Clibsodium in Frameworks */,
+				A40000000000000000000002 /* ZIPFoundation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5E000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				D10000000000000000000002 /* Sources */,
+				D30000000000000000000002 /* Resources */,
+				D5E000000000000000000001 /* ShareExtension */,
+				D10000000000000000000005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D10000000000000000000002 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D10000000000000000000003 /* RelationshipCore */,
+				D10000000000000000000004 /* RelationshipNotebookApp */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000003 /* RelationshipCore */ = {
+			isa = PBXGroup;
+			children = (
+				B20000000000000000000001 /* AppConfiguration.swift */,
+				B20000000000000000000020 /* ArchiveExportScope.swift */,
+				B10000000000000000000001 /* Domain.swift */,
+				B10000000000000000000004 /* ArchiveCodec.swift */,
+				B20000000000000000000003 /* ArchiveImportPlanner.swift */,
+				B9F000000000000000000001 /* ArchiveImportReview.swift */,
+				B20000000000000000000028 /* ArchiveMigrationDestination.swift */,
+				B20000000000000000000004 /* CanonicalArchivePayload.swift */,
+				B20000000000000000000005 /* CanonicalAssertions.swift */,
+				B20000000000000000000006 /* CanonicalPlanningAndFilters.swift */,
+				B20000000000000000000007 /* CanonicalPrimitives.swift */,
+				B20000000000000000000008 /* CanonicalRelationships.swift */,
+				B20000000000000000000009 /* CanonicalVaultStore.swift */,
+				B20000000000000000000023 /* CloudAccountBinding.swift */,
+				B20000000000000000000022 /* CloudSyncNotifications.swift */,
+				B20000000000000000000024 /* CloudVaultMigration.swift */,
+				B20000000000000000000029 /* CloudVaultMigrationGenerationGate.swift */,
+				B2000000000000000000000A /* CommunicationHandoff.swift */,
+				B2000000000000000000000B /* DeterministicTextImport.swift */,
+				B2000000000000000000000C /* DocumentTextExtractor.swift */,
+				B2000000000000000000000E /* LocalSearchEvaluation.swift */,
+				B2000000000000000000000F /* LocalSearchIndex.swift */,
+				B20000000000000000000010 /* LocalSearchModels.swift */,
+				B20000000000000000000021 /* MediaArchive.swift */,
+				B20000000000000000000025 /* MediaPayloadRepository.swift */,
+				B10000000000000000000006 /* NotebookStore.swift */,
+				B20000000000000000000011 /* NotificationScheduler.swift */,
+				B50000000000000000000001 /* PasswordEncryptedArchive.swift */,
+				B10000000000000000000003 /* NudgeEngine.swift */,
+				B10000000000000000000005 /* PersistenceController.swift */,
+				B20000000000000000000026 /* PersistentHistoryCoordinator.swift */,
+				B2000000000000000000002A /* RecoverableDeletionCheckpoint.swift */,
+				B2000000000000000000002B /* RecoverableDeletionReferenceClosure.swift */,
+				B2000000000000000000002C /* RelationshipWorkflow.swift */,
+				B2000000000000000000001E /* PortraitMedia.swift */,
+				B20000000000000000000012 /* PersonMerge.swift */,
+				B20000000000000000000013 /* ProfileCardSnapshots.swift */,
+				B20000000000000000000014 /* RecordRepository.swift */,
+				B80000000000000000000001 /* RecommendationMemory.swift */,
+				B90000000000000000000001 /* ShortcutModelBridge.swift */,
+				B10000000000000000000002 /* SearchNormalizer.swift */,
+				B20000000000000000000015 /* SensitiveFieldPolicy.swift */,
+				B20000000000000000000016 /* SyncStatus.swift */,
+				B9F000000000000000000002 /* VaultStorageInventory.swift */,
+			);
+			path = RelationshipCore;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000004 /* RelationshipNotebookApp */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000007 /* RelationshipNotebookApp.swift */,
+				B70000000000000000000001 /* PushNotificationCoordinator.swift */,
+				B20000000000000000000027 /* AppSessionController.swift */,
+				B90000000000000000000002 /* ShortcutPCCBridge.swift */,
+				B90000000000000000000003 /* PlatformReliabilityViews.swift */,
+				B10000000000000000000008 /* Theme.swift */,
+				B10000000000000000000009 /* RootAndOnboarding.swift */,
+				B1000000000000000000000A /* TodayAndPeopleViews.swift */,
+				B1000000000000000000000B /* CaptureAndSettingsViews.swift */,
+				B20000000000000000000017 /* GuidedImportReviewView.swift */,
+				B20000000000000000000018 /* PeopleDiscoveryView.swift */,
+				B20000000000000000000019 /* PeopleManagementViews.swift */,
+				B2000000000000000000001A /* PlanningAndCustomFieldsViews.swift */,
+				B2000000000000000000001B /* ProfileSnapshotStudioView.swift */,
+				B2000000000000000000001F /* PortraitViews.swift */,
+				B2000000000000000000001C /* SecurityViews.swift */,
+				B2000000000000000000001D /* StructuredRelationshipViews.swift */,
+				B9F000000000000000000003 /* StorageInventoryView.swift */,
+			);
+			path = RelationshipNotebookApp;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000000C /* Keepsake.app */,
+				B5E000000000000000000004 /* KeepsakeShare.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5E000000000000000000001 /* ShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B5E000000000000000000001 /* ShareViewController.swift */,
+				B5E000000000000000000002 /* Info.plist */,
+				B5E000000000000000000003 /* KeepsakeShare.entitlements */,
+				D5E000000000000000000003 /* Localizable.strings */,
+				D5E000000000000000000004 /* InfoPlist.strings */,
+			);
+			path = ShareExtension;
+			sourceTree = "<group>";
+		};
+		D30000000000000000000002 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B30000000000000000000008 /* Assets.xcassets */,
+				D30000000000000000000001 /* Localizable.strings */,
+				D30000000000000000000003 /* InfoPlist.strings */,
+				B30000000000000000000001 /* PrivacyInfo.xcprivacy */,
+				B30000000000000000000009 /* Keepsake-iOS.entitlements */,
+				B60000000000000000000001 /* ThirdPartyNotices.txt */,
+				B30000000000000000000004 /* Keepsake-macOS.entitlements */,
+				B30000000000000000000005 /* CloudKit.entitlements.example */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* Keepsake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10000000000000000000001 /* Build configuration list for PBXNativeTarget "Keepsake" */;
+			buildPhases = (
+				C10000000000000000000002 /* Sources */,
+				C10000000000000000000001 /* Frameworks */,
+				C10000000000000000000003 /* Resources */,
+				C5E000000000000000000004 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E000000000000000000002 /* PBXTargetDependency */,
+			);
+			name = Keepsake;
+			packageProductDependencies = (
+				G20000000000000000000001 /* Clibsodium */,
+				G20000000000000000000002 /* ZIPFoundation */,
+			);
+			productName = Keepsake;
+			productReference = B1000000000000000000000C /* Keepsake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5E000000000000000000001 /* KeepsakeShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E000000000000000000001 /* Build configuration list for PBXNativeTarget "KeepsakeShare" */;
+			buildPhases = (
+				C5E000000000000000000001 /* Sources */,
+				C5E000000000000000000002 /* Frameworks */,
+				C5E000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeepsakeShare;
+			packageProductDependencies = (
+			);
+			productName = KeepsakeShare;
+			productReference = B5E000000000000000000004 /* KeepsakeShare.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E10000000000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					E10000000000000000000001 = {
+						CreatedOnToolsVersion = 26.6;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					E5E000000000000000000001 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = F10000000000000000000002 /* Build configuration list for PBXProject "RelationshipNotebook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = D10000000000000000000001;
+			packageReferences = (
+				G10000000000000000000001 /* XCRemoteSwiftPackageReference "swift-sodium" */,
+				G10000000000000000000002 /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+			);
+			productRefGroup = D10000000000000000000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E10000000000000000000001 /* Keepsake */,
+				E5E000000000000000000001 /* KeepsakeShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C10000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30000000000000000000001 /* PrivacyInfo.xcprivacy in Resources */,
+				A30000000000000000000002 /* Localizable.strings in Resources */,
+				A30000000000000000000003 /* InfoPlist.strings in Resources */,
+				A30000000000000000000004 /* Assets.xcassets in Resources */,
+				A60000000000000000000001 /* ThirdPartyNotices.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5E000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E000000000000000000003 /* Localizable.strings in Resources */,
+				A5E000000000000000000004 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C10000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* Domain.swift in Sources */,
+				A10000000000000000000002 /* SearchNormalizer.swift in Sources */,
+				A10000000000000000000003 /* NudgeEngine.swift in Sources */,
+				A10000000000000000000004 /* ArchiveCodec.swift in Sources */,
+				A10000000000000000000005 /* PersistenceController.swift in Sources */,
+				A10000000000000000000006 /* NotebookStore.swift in Sources */,
+				A10000000000000000000007 /* RelationshipNotebookApp.swift in Sources */,
+				A70000000000000000000001 /* PushNotificationCoordinator.swift in Sources */,
+				A10000000000000000000008 /* Theme.swift in Sources */,
+				A10000000000000000000009 /* RootAndOnboarding.swift in Sources */,
+				A1000000000000000000000A /* TodayAndPeopleViews.swift in Sources */,
+				A1000000000000000000000B /* CaptureAndSettingsViews.swift in Sources */,
+				A20000000000000000000001 /* AppConfiguration.swift in Sources */,
+				A20000000000000000000003 /* ArchiveImportPlanner.swift in Sources */,
+				A9F000000000000000000001 /* ArchiveImportReview.swift in Sources */,
+				A20000000000000000000028 /* ArchiveMigrationDestination.swift in Sources */,
+				A20000000000000000000004 /* CanonicalArchivePayload.swift in Sources */,
+				A20000000000000000000005 /* CanonicalAssertions.swift in Sources */,
+				A20000000000000000000006 /* CanonicalPlanningAndFilters.swift in Sources */,
+				A20000000000000000000007 /* CanonicalPrimitives.swift in Sources */,
+				A20000000000000000000008 /* CanonicalRelationships.swift in Sources */,
+				A20000000000000000000009 /* CanonicalVaultStore.swift in Sources */,
+				A20000000000000000000023 /* CloudAccountBinding.swift in Sources */,
+				A20000000000000000000022 /* CloudSyncNotifications.swift in Sources */,
+				A20000000000000000000024 /* CloudVaultMigration.swift in Sources */,
+				A20000000000000000000029 /* CloudVaultMigrationGenerationGate.swift in Sources */,
+				A2000000000000000000000A /* CommunicationHandoff.swift in Sources */,
+				A2000000000000000000000B /* DeterministicTextImport.swift in Sources */,
+				A2000000000000000000000C /* DocumentTextExtractor.swift in Sources */,
+				A2000000000000000000000E /* LocalSearchEvaluation.swift in Sources */,
+				A2000000000000000000000F /* LocalSearchIndex.swift in Sources */,
+				A20000000000000000000010 /* LocalSearchModels.swift in Sources */,
+				A20000000000000000000021 /* MediaArchive.swift in Sources */,
+				A20000000000000000000025 /* MediaPayloadRepository.swift in Sources */,
+				A20000000000000000000011 /* NotificationScheduler.swift in Sources */,
+				A50000000000000000000001 /* PasswordEncryptedArchive.swift in Sources */,
+				A20000000000000000000012 /* PersonMerge.swift in Sources */,
+				A20000000000000000000013 /* ProfileCardSnapshots.swift in Sources */,
+				A20000000000000000000014 /* RecordRepository.swift in Sources */,
+				A80000000000000000000001 /* RecommendationMemory.swift in Sources */,
+				A90000000000000000000001 /* ShortcutModelBridge.swift in Sources */,
+				A90000000000000000000002 /* ShortcutPCCBridge.swift in Sources */,
+				A90000000000000000000003 /* PlatformReliabilityViews.swift in Sources */,
+				A20000000000000000000015 /* SensitiveFieldPolicy.swift in Sources */,
+				A20000000000000000000016 /* SyncStatus.swift in Sources */,
+				A9F000000000000000000002 /* VaultStorageInventory.swift in Sources */,
+				A20000000000000000000026 /* PersistentHistoryCoordinator.swift in Sources */,
+				A2000000000000000000002A /* RecoverableDeletionCheckpoint.swift in Sources */,
+				A2000000000000000000002B /* RecoverableDeletionReferenceClosure.swift in Sources */,
+				A2000000000000000000002C /* RelationshipWorkflow.swift in Sources */,
+				A20000000000000000000017 /* GuidedImportReviewView.swift in Sources */,
+				A20000000000000000000018 /* PeopleDiscoveryView.swift in Sources */,
+				A20000000000000000000019 /* PeopleManagementViews.swift in Sources */,
+				A2000000000000000000001A /* PlanningAndCustomFieldsViews.swift in Sources */,
+				A2000000000000000000001B /* ProfileSnapshotStudioView.swift in Sources */,
+				A2000000000000000000001C /* SecurityViews.swift in Sources */,
+				A2000000000000000000001D /* StructuredRelationshipViews.swift in Sources */,
+				A9F000000000000000000003 /* StorageInventoryView.swift in Sources */,
+				A2000000000000000000001E /* PortraitMedia.swift in Sources */,
+				A2000000000000000000001F /* PortraitViews.swift in Sources */,
+				A20000000000000000000020 /* ArchiveExportScope.swift in Sources */,
+				A20000000000000000000027 /* AppSessionController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5E000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E000000000000000000001 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5E000000000000000000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = E5E000000000000000000001 /* KeepsakeShare */;
+			targetProxy = C5E000000000000000000005 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5E000000000000000000003 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5E000000000000000000005 /* en */,
+				B5E000000000000000000006 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D5E000000000000000000004 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5E000000000000000000007 /* en */,
+				B5E000000000000000000008 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D30000000000000000000001 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B30000000000000000000002 /* en */,
+				B30000000000000000000003 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D30000000000000000000003 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B30000000000000000000006 /* en */,
+				B30000000000000000000007 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F20000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F20000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F20000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APS_ENVIRONMENT = development;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLOUDKIT_CONTAINER_IDENTIFIER = iCloud.com.zacrotech.RelationshipNotebook;
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "Resources/Keepsake-iOS.entitlements";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphonesimulator*]" = "Resources/Keepsake-iOS.entitlements";
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Resources/Keepsake-macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 34NS8XN5F9;
+				"ENABLE_APP_SANDBOX[sdk=macosx*]" = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				ICLOUD_CONTAINER_ENVIRONMENT = Development;
+				"ICLOUD_CONTAINER_ENVIRONMENT[sdk=iphonesimulator*]" = Development;
+				INFOPLIST_FILE = "Resources/Keepsake-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Keepsake;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Unlock your private relationship notebook.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacrotech.RelationshipNotebook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F20000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APS_ENVIRONMENT = production;
+				"APS_ENVIRONMENT[sdk=iphonesimulator*]" = development;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLOUDKIT_CONTAINER_IDENTIFIER = iCloud.com.zacrotech.RelationshipNotebook;
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "Resources/Keepsake-iOS.entitlements";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphonesimulator*]" = "Resources/Keepsake-iOS.entitlements";
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "Resources/Keepsake-macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 34NS8XN5F9;
+				"ENABLE_APP_SANDBOX[sdk=macosx*]" = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				ICLOUD_CONTAINER_ENVIRONMENT = Production;
+				"ICLOUD_CONTAINER_ENVIRONMENT[sdk=iphonesimulator*]" = Development;
+				INFOPLIST_FILE = "Resources/Keepsake-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Keepsake;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Unlock your private relationship notebook.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacrotech.RelationshipNotebook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5E000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = ShareExtension/KeepsakeShare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 34NS8XN5F9;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ShareExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacrotech.RelationshipNotebook.Share;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5E000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = ShareExtension/KeepsakeShare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 34NS8XN5F9;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ShareExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacrotech.RelationshipNotebook.Share;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10000000000000000000001 /* Build configuration list for PBXNativeTarget "Keepsake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20000000000000000000003 /* Debug */,
+				F20000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10000000000000000000002 /* Build configuration list for PBXProject "RelationshipNotebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20000000000000000000001 /* Debug */,
+				F20000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E000000000000000000001 /* Build configuration list for PBXNativeTarget "KeepsakeShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E000000000000000000003 /* Debug */,
+				F5E000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		G10000000000000000000001 /* XCRemoteSwiftPackageReference "swift-sodium" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jedisct1/swift-sodium.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.11.0;
+			};
+		};
+		G10000000000000000000002 /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.9.20;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		G20000000000000000000001 /* Clibsodium */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = G10000000000000000000001 /* XCRemoteSwiftPackageReference "swift-sodium" */;
+			productName = Clibsodium;
+		};
+		G20000000000000000000002 /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = G10000000000000000000002 /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E10000000000000000000002 /* Project object */;
+}
